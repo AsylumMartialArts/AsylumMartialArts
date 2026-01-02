@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Free Week | Asylum Martial Arts</title>
+  <meta name="description" content="Asylum Martial Arts in Owensboro, KY — Brazilian Jiu-Jitsu, Kickboxing, MMA, and Wrestling led by Head Coach Aaron Grace. Claim your free week." />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="Asylum Martial Arts home">
+        <img src="assets/logo.png" alt="Asylum Martial Arts logo" />
+        <div>
+          <div class="name">Asylum Martial Arts</div>
+          <div class="sub">Owensboro, KY</div>
+        </div>
+      </a>
+
+      <nav class="menu" aria-label="Primary">
+        <a href="index.html" class="">Home</a>
+<a href="programs.html" class="">Programs</a>
+<a href="schedule.html" class="">Schedule</a>
+<a href="pricing.html" class="">Pricing</a>
+<a href="coach.html" class="">Coach</a>
+<a href="contact.html" class="">Contact</a>
+      </nav>
+
+      <div class="cta">
+        <a class="btn primary" href="free-week.html">Claim Your Free Week</a>
+        <button class="btn icon" type="button" data-menu-toggle aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu" data-mobile-menu>
+    <a href="index.html">Home</a>
+<a href="programs.html">Programs</a>
+<a href="schedule.html">Schedule</a>
+<a href="pricing.html">Pricing</a>
+<a href="coach.html">Coach</a>
+<a href="contact.html">Contact</a>
+    <a href="free-week.html"><strong>Claim Your Free Week</strong></a>
+  </div>
+</header>
+
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="kicker">Free Week</div>
+      <h1>Claim Your Free Week</h1>
+      <p class="lede">Try a full week of classes and get a feel for the coaching, culture, and training. Fill this out and we’ll reach out to confirm your first class.</p>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="container">
+      <form class="form" name="free-week" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thanks.html">
+        <input type="hidden" name="form-name" value="free-week" />
+        <p style="display:none">
+          <label>Don’t fill this out: <input name="bot-field" /></label>
+        </p>
+
+        <div class="fgrid">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" required />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" />
+          </div>
+          <div>
+            <label for="age_group">Age Group</label>
+            <select id="age_group" name="age_group" required>
+              <option value="" selected disabled>Select one</option>
+              <option>Kids</option>
+              <option>Teen</option>
+              <option>Adult</option>
+            </select>
+          </div>
+          <div>
+            <label for="interest">Program Interest</label>
+            <select id="interest" name="interest" required>
+              <option value="" selected disabled>Select one</option>
+              <option>Jiu-Jitsu</option>
+              <option>Kickboxing</option>
+              <option>MMA</option>
+              <option>Wrestling</option>
+              <option>Not sure</option>
+            </select>
+          </div>
+          <div>
+            <label for="start_day">Best Day to Start</label>
+            <select id="start_day" name="start_day">
+              <option>Monday</option>
+              <option>Tuesday</option>
+              <option>Wednesday</option>
+              <option>Thursday</option>
+              <option>Saturday</option>
+              <option>Not sure</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="margin-top:12px">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Anything we should know? (optional)"></textarea>
+        </div>
+
+        <div class="actions">
+          <button class="btn primary" type="submit">Start My Free Week</button>
+          <a class="btn" href="schedule.html">View Schedule</a>
+        </div>
+
+        <div class="hr"></div>
+        <div class="small muted"><strong>Do I need experience?</strong> No — beginners are welcome.</div>
+        <div class="small muted"><strong>What should I bring?</strong> Water + comfortable workout clothes.</div>
+        <div class="small muted"><strong>Is sparring required?</strong> No. You’ll be coached safely at your level.</div>
+        <div class="hr"></div>
+        <div class="small">Form submissions will be sent to <strong>Asylummartialarts@gmail.com</strong> once you connect notifications in Netlify (instructions included below).</div>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>© 2026 Asylum Martial Arts • 420 Triplett St., Owensboro, KY • (270) 313-1999</div>
+      <div class="links">
+        <a class="underline" href="free-week.html">Free Week</a>
+        <a class="underline" href="schedule.html">Schedule</a>
+        <a class="underline" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
